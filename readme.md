@@ -1,6 +1,16 @@
 #  Iniciar go
 
+## Tener en cuenta siempre donde esta nuestra carpeta de trabajo
 
+GOPATH 
+
+- Estructura es
+    - bin
+    - src
+        - github.com
+            - Rojas-Andres
+                - project-go( Repository )
+    - pkg
 Recordar configurar el GOROOT Y GOPATH 
 go mod init github.com/project-go
 
