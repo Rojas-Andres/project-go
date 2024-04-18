@@ -3,6 +3,8 @@ package main
 import (
 	"runtime"
 
+	"github.com/Rojas-Andres/project-go/ejercicios"
+	"github.com/Rojas-Andres/project-go/iteraciones"
 	"github.com/Rojas-Andres/project-go/variables"
 )
 
@@ -38,4 +40,6 @@ func main() {
 	// default:
 	// 	println("El sistema operativo es ", sytem_os)
 	// }
+	iteraciones.Iterar()
+	ejercicios.TablaMultiplicar()
 }
