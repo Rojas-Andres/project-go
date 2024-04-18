@@ -6,5 +6,9 @@ import (
 
 
 func main() {
-	variables.ShowIntegers()
+	// variables.ShowIntegers()
+	// variables.RestoVariables()
+	booleano , texto := variables.ConviertoaTexto(12312312)
+	println(booleano)
+	println(texto)
 }
