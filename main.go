@@ -6,7 +6,8 @@ import (
 	// "github.com/Rojas-Andres/project-go/iteraciones"
 	// "github.com/Rojas-Andres/project-go/variables"
 	// "github.com/Rojas-Andres/project-go/files"
-	"github.com/Rojas-Andres/project-go/funciones"
+	// "github.com/Rojas-Andres/project-go/funciones"
+	"github.com/Rojas-Andres/project-go/arreglos_slices"
 )
 
 
@@ -50,5 +51,10 @@ func main() {
 	// files.LeoArchivo()
 	// funciones.Calculos()
 	// funciones.LlamarClosure()
-	funciones.Exponencia(2)
+	// funciones.Exponencia(2)
+
+
+	// arreglos_slices.MostrarTabla()
+	// arreglos_slices.MuestroSlice()
+	arreglos_slices.Capacidad()
 }
