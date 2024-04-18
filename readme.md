@@ -26,3 +26,5 @@ go run main.go
 - go build main.go
 - Esto genera un .exe (main.exe) se podria ejecutar solo en la terminal ejecutando main.exe
 
+## Interfaces
+- Son modelos de comportamiento que se pueden asociar a una estructura

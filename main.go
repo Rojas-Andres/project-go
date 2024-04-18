@@ -8,7 +8,9 @@ import (
 	// "github.com/Rojas-Andres/project-go/funciones"
 	// "github.com/Rojas-Andres/project-go/arreglos_slices"
 	// "github.com/Rojas-Andres/project-go/mapas"
-	"github.com/Rojas-Andres/project-go/users"
+	// "github.com/Rojas-Andres/project-go/users"
+	"github.com/Rojas-Andres/project-go/ejer_interfaces"
+	"github.com/Rojas-Andres/project-go/modelos"
 )
 
 
@@ -65,5 +67,12 @@ func main() {
 	// mapas.MostrarMapas()
 
 
-	users.AltaUsuario()
+	// users.AltaUsuario()
+
+	Pedro:= new(modelos.Hombre)
+	ejer_interfaces.HumanoRespirando(Pedro)
+
+	Maria:= new(modelos.Mujer)
+	ejer_interfaces.HumanoRespirando(Maria)
+	
 }
