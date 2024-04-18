@@ -20,4 +20,13 @@ func MostrarMapas() {
 	for equipo, puntaje := range campeonato {
 		fmt.Printf("El equipo %s, tiene un puntaje de: %d \n", equipo, puntaje)
 	}
+
+	delete(campeonato, "Real Madrid") // Recibe el map y la llave a eliminar
+	fmt.Println(campeonato)
+
+	puntaje, existe := campeonato["Juventus"]
+	fmt.Printf("El puntaje capturado es %d y el equipo existe %t \n", puntaje, existe) // %t es para booleanos
+	puntaje_chivas, existe_chivas := campeonato["Chivas"]
+	fmt.Printf("El puntaje capturado es %d y el equipo existe %t \n", puntaje_chivas, existe_chivas) // %t es para booleanos
+
 }
