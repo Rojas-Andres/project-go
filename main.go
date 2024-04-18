@@ -1,6 +1,8 @@
 package main
 
 import (
+	"runtime"
+
 	"github.com/Rojas-Andres/project-go/variables"
 )
 
@@ -11,4 +13,29 @@ func main() {
 	booleano , texto := variables.ConviertoaTexto(12312312)
 	println(booleano)
 	println(texto)
+	os := runtime.GOOS
+	if os == "windows" {
+		println("El sistema operativo es Windows")
+	} else {
+		println("El sistema operativo es otro")
+	}
+	println(os)
+
+	// switch os {
+	// case "windows":
+	// 	println("El sistema operativo es Windows")
+	// case "darwin":
+	// 	println("El sistema operativo es MacOS")
+	// default:
+	// 	println("El sistema operativo es otro")
+	// }
+
+	// switch sytem_os := runtime.GOOS; sytem_os {
+	// case "darwin":
+	// 	println("El sistema operativo es darwin")
+	// case "linux":
+	// 	println("El sistema operativo es MacOS")
+	// default:
+	// 	println("El sistema operativo es ", sytem_os)
+	// }
 }
