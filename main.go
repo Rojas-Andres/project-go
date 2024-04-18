@@ -5,7 +5,8 @@ import (
 	// "github.com/Rojas-Andres/project-go/ejercicios"
 	// "github.com/Rojas-Andres/project-go/iteraciones"
 	// "github.com/Rojas-Andres/project-go/variables"
-	"github.com/Rojas-Andres/project-go/files"
+	// "github.com/Rojas-Andres/project-go/files"
+	"github.com/Rojas-Andres/project-go/funciones"
 )
 
 
@@ -46,5 +47,7 @@ func main() {
 	// files.GrabaTabla()
 	// files.SumaTabla()
 	// files.LeerArchivo()
-	files.LeoArchivo()
+	// files.LeoArchivo()
+	// funciones.Calculos()
+	funciones.LlamarClosure()
 }
