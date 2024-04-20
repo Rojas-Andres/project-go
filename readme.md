@@ -28,3 +28,11 @@ go run main.go
 
 ## Interfaces
 - Son modelos de comportamiento que se pueden asociar a una estructura
+
+
+## Defer
+
+- cuando termine una funcion ejecuta ese defer
+
+
+- generalmente se usa el recover con defer

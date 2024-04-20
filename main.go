@@ -9,8 +9,12 @@ import (
 	// "github.com/Rojas-Andres/project-go/arreglos_slices"
 	// "github.com/Rojas-Andres/project-go/mapas"
 	// "github.com/Rojas-Andres/project-go/users"
-	"github.com/Rojas-Andres/project-go/ejer_interfaces"
-	"github.com/Rojas-Andres/project-go/modelos"
+	// "github.com/Rojas-Andres/project-go/ejer_interfaces"
+	// "github.com/Rojas-Andres/project-go/modelos"
+	// "github.com/Rojas-Andres/project-go/defer_panic"
+	"fmt"
+
+	"github.com/Rojas-Andres/project-go/gorutines"
 )
 
 
@@ -69,10 +73,17 @@ func main() {
 
 	// users.AltaUsuario()
 
-	Pedro:= new(modelos.Hombre)
-	ejer_interfaces.HumanoRespirando(Pedro)
+	// Pedro:= new(modelos.Hombre)
+	// ejer_interfaces.HumanoRespirando(Pedro)
 
-	Maria:= new(modelos.Mujer)
-	ejer_interfaces.HumanoRespirando(Maria)
-	
+	// Maria:= new(modelos.Mujer)
+	// ejer_interfaces.HumanoRespirando(Maria)
+
+	// defer_panic.VemosDefer()
+	// defer_panic.EjemploPanic()
+	go gorutines.MiNombreLentooo("Andres")
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)
+
 }
